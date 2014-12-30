@@ -1,0 +1,31 @@
+{
+  "name": "hashimitsu",
+  "version": "0.1.0",
+  "description": "Check the last remote jobs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://yrezgui@github.com/yrezgui/hashimitsu.git"
+  },
+  "keywords": [
+    "jobs",
+    "remote",
+    "import.io",
+    "node-webkit",
+    "react",
+    "mobile",
+    "web-app"
+  ],
+  "author": "Yacine Rezgui <rezgui.y@gmail.com>",
+  "license": "Apache Licence v2",
+  "bugs": {
+    "url": "https://github.com/yrezgui/hashimitsu/issues"
+  },
+  "homepage": "https://github.com/yrezgui/hashimitsu",
+  "dependencies": {
+    "bootstrap": "^3.3.1"
+  }
+}
