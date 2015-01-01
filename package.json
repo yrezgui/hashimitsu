@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "Check the last remote jobs",
   "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://yrezgui@github.com/yrezgui/hashimitsu.git"
@@ -26,6 +23,26 @@
   },
   "homepage": "https://github.com/yrezgui/hashimitsu",
   "dependencies": {
-    "bootstrap": "^3.3.1"
+    "bootstrap": "^3.3.1",
+    "flux": "^2.0.1",
+    "font-awesome": "git://github.com/FortAwesome/Font-Awesome",
+    "font-mfizz": "git://github.com/yrezgui/font-mfizz",
+    "keymirror": "^0.1.1",
+    "react": "^0.12.2"
+  },
+  "devDependencies": {
+    "browserify": "^8.0.2",
+    "reactify": "^0.17.1",
+    "uglify-js": "^2.4.16",
+    "watchify": "^2.2.1"
+  },
+  "scripts": {
+    "start": "watchify . -o js/bundle.js",
+    "build": "NODE_ENV=production browserify . | uglifyjs -cm > js/bundle.min.js"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
   }
 }
