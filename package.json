@@ -28,6 +28,8 @@
     "font-awesome": "git://github.com/FortAwesome/Font-Awesome",
     "font-mfizz": "git://github.com/yrezgui/font-mfizz",
     "keymirror": "^0.1.1",
+    "lodash": "^2.4.1",
+    "object-assign": "^2.0.0",
     "react": "^0.12.2"
   },
   "devDependencies": {
